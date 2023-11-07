@@ -1,0 +1,23 @@
+{
+  "name": "admin_panel",
+  "version": "1.0.0",
+  "description": "Admin panel for Bumble clone dating app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "keywords": ["nodejs", "express", "mongodb", "react", "admin", "panel", "dating", "app"],
+  "author": "",
+  "license": "ISC"
+}
